@@ -44,31 +44,27 @@ O dashboard foi construído para responder 4 perguntas estratégicas:
 
 ---
 
-## 🎨 Justificativa do Design
+## 🎨 Fundamentação de Design e UX (User Experience)
 
-### Estilo Corporativo — Por que não tema escuro?
-O design seguiu o padrão de ferramentas enterprise como TARGIT e SAP 
-Analytics Cloud: fundo claro `#F8F9FA`, tipografia Segoe UI e paleta 
-monocromática em azul corporativo `#1B3A6B`.
+O design deste dashboard foi projetado sob os princípios de **Visual Business Intelligence**, priorizando a redução da carga cognitiva e a agilidade na tomada de decisão estratégica.
 
-Essa escolha foi intencional — o público-alvo é a **diretoria de uma 
-distribuidora B2B**, não um público técnico de TI. Dashboards claros 
-transmitem objetividade e são mais legíveis em reuniões presenciais e 
-projeções.
+### 🏛️ Estilo Visual: Minimalismo Corporativo e Acessibilidade
+Diferente de dashboards puramente artísticos, a interface segue o padrão **Clean/Light Mode**, inspirado em diretrizes globais de governança de dados e usabilidade:
 
-### Estrutura de Layout — Visão Geral → Detalhamento
-Cada página segue a mesma lógica:
-- **Coluna esquerda:** KPIs consolidados para leitura rápida
-- **Quadrante superior direito:** Gráficos de apoio (Top 5 + Evolução)
-- **Matriz inferior:** Detalhamento completo com hierarquia expansível
+*   **Paleta de Cores:** Utilização de uma escala monocromática em **Azul Profundo (#1B3A6B)** para transmitir autoridade e confiança. O contraste em fundo claro (**#F8F9FA**) garante legibilidade máxima em diferentes dispositivos e condições de iluminação (como projeções em salas de reunião).
+*   **Tipografia:** Padronização com a família **Segoe UI**, garantindo nitidez e familiaridade visual com o ecossistema corporativo Microsoft 365.
 
-Essa estrutura permite que o gestor consuma o insight em 3 segundos 
-nos cartões ou aprofunde na matriz quando necessário.
+### 📐 Arquitetura da Informação: Metodologia "Top-Down"
+O layout respeita o padrão de leitura em "F" e "Z", guiando o olhar do gestor do macro para o micro de forma intuitiva:
 
-### Navegação — Navegador de Páginas Nativo
-Em vez de botões customizados, utilizei o componente nativo de 
-navegação do Power BI, simulando abas de sistema ERP — familiar para 
-o perfil de usuário corporativo.
+1.  **Camada de Atenção (Summary):** KPIs consolidados posicionados para uma validação da saúde do negócio em menos de 5 segundos.
+2.  **Camada de Contexto (Trends):** Gráficos de tendência e análise de Pareto (Top 5) que contextualizam as variações dos indicadores principais.
+3.  **Camada de Detalhe (Granularity):** Matrizes com hierarquias expansíveis na base, permitindo o *drill-down* técnico sem poluir a visão executiva inicial.
+
+### 🕹️ Navegação e Usabilidade (UI)
+*   **Componentes Nativos:** Implementação do **Navegador de Páginas** nativo para emular a experiência de um software ERP/SaaS profissional, reduzindo a curva de aprendizado do usuário.
+*   **Affordance & Consistência:** Elementos interativos seguem um padrão visual rígido, indicando claramente onde o usuário pode filtrar ou aprofundar a análise.
+*   **Dicas de Ferramenta (Tooltips):** Uso de tooltips de contexto para fornecer "detalhamento sob demanda", mantendo o visual limpo enquanto oferece dados granulares extras.
 
 ---
 
