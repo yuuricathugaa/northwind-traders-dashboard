@@ -44,6 +44,10 @@ O dashboard foi construído para responder 4 perguntas estratégicas:
 | 3 | Quais categorias e produtos lideram as vendas e qual é a tendência de cada um? | Produtos & Categorias |
 | 4 | Qual vendedor está performando melhor e qual está abaixo da média? | Equipe de Vendas |
 
+## 📈 Análise dos Dados
+Os insights extraídos do dashboard estão documentados no 
+__[Relatório de Análise](analises.md)__.
+
 ---
 
 ## 🎨 Fundamentação de Design e UX (User Experience)
