@@ -10,6 +10,8 @@ Dashboard estratégico desenvolvido em Power BI Desktop com o dataset
 **Northwind Traders** (Kaggle), simulando uma análise comercial completa 
 para o dono de uma distribuidora de alimentos.
 
+O dashboard está __[aqui](https://github.com/yuuricathugaa/northwind-traders-dashboard/blob/main/Case Tecnico-NorthwindTraders.pbix)__.
+
 O projeto cobre toda a cadeia analítica: da modelagem de dados até o 
 storytelling visual, com foco em decisões de negócio reais.
 
