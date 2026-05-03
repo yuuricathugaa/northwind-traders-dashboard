@@ -144,9 +144,3 @@ frete e contagem de pedidos.
 - **Star Schema** — modelagem dimensional
 - **Formatação Condicional** — cor dinâmica por performance
 - **Navegador de Páginas Nativo** — UX corporativa
-
----
-
-## 👤 Autor
-
-**Yuri Catunda**  
