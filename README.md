@@ -151,20 +151,6 @@ frete e contagem de pedidos.
 
 ---
 
-## 📁 Estrutura do Repositório
-
-northwind-traders-dashboard/
-│
-├── NorthwindTraders.pbix
-├── README.md
-└── assets/
-├── visao-geral.png
-├── clientes.png
-├── produtos.png
-└── equipe-vendas.png
-
----
-
 ## 👤 Autor
 
 **Yuri Catunda**  
